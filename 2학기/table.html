@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>테이블</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                margin: auto;
+            }
+            td, th{
+                border: 1px solid black;
+                padding: 10px;
+                text-align: center;
+            }
+            caption {
+                font-size: 24px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            tfoot{
+                font-style: italic;
+                border: 1px solid black;
+               
+            }
+            
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>랭킹</caption>
+            <tr>
+                <th>순위</th>
+                <th>이름</th>
+                <th>포인트</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>kyn</td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>nje</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <tfoot><td colspan="3">자료제공 my mom</td></tfoot>
+            </tr>
+        </table>
+    </body>
+</html>
