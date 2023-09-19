@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>box-sizing</title>
+        <style>
+           div{
+            width: 200px;
+            height: 100px;
+            border: 1px black solid;
+/*content-box 경우 박스의 폭은 width+양옆 padding+ 양옆 border 된다*/
+/*boder-box 경우 박스의 폭은 위에 정해진 width 크기가 된다 (박스 크기 고정)*/
+            box-sizing: border-box;
+           }
+           .a {
+            padding: 20px;
+           }
+           .b{
+            padding-left: 20px;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="a"></div>
+        <div class="b"></div>
+    </body>
+</html>
