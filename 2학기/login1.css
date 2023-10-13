@@ -1,6 +1,6 @@
 body {
     margin : 0;
-    background-color: hsl(50, 27%, 96%);
+    background-color: hsl(60, 33%, 99%);
     height : 100vh;
 
     /* 가로 세로 중앙정렬 */
@@ -10,12 +10,12 @@ body {
 }
 
 .login-container {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(254, 252, 252);
     /* 배경색은 padding에도 영향을 준다. (margin X)  */
     padding : 30px;
     border-radius: 5px;
     width: 300px;
-    box-shadow: 0 0 10px rgb(216, 216, 216);
+    box-shadow: 0 0 10px rgb(168, 168, 168);
 }
 
 h1{
@@ -43,7 +43,7 @@ input {
 }
 /* hover: 마우스를 갖다대면 */
 #i_submit:hover {
-    background-color: rgb(254, 177, 34);
+    background-color: rgb(254, 188, 6);
 }
 
 .forgot-password {
