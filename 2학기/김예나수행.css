@@ -1,0 +1,70 @@
+/* christmas.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* 사진 가운데로 배치 */
+img {
+    display: block;
+    margin: auto;
+}
+
+header {
+    background-color: #e44d26;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    font-size: 25px;
+    color: green;
+}
+
+#greetings img,
+#event-details .event img,
+#gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#accent {
+    color: #e44d26;
+    font-weight: bold;
+}
+
+.day {
+    color: #e44d26;
+}
+
+.event {
+    margin-top: 20px;
+    
+}
+
+h1 {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+
+
